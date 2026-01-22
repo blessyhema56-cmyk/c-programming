@@ -1,0 +1,32 @@
+ #include<stdio.h>
+  
+  //int a,b;
+  int swap(int *a,int *b){
+      int c;
+      c=*a;
+      *a=*b;
+      *b=c;
+  }
+  int main(){
+      int x,y;
+      printf("Enter the x:\n");
+      scanf("%d",&x);
+      printf("Enter the y:\n");
+      scanf("%d",&y);
+     swap(&x,&y);
+      
+      printf("x is: %d\n",x);
+      printf("y is :%d",y);
+      return 0;
+      
+  }
+
+Output:
+Enter the x:
+10
+Enter the y:
+20
+x is: 20
+y is :10
+
+=== Code Execution Successful ===
