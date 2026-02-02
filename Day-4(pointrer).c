@@ -1,0 +1,45 @@
+
+
+// find position
+#include <stdio.h>
+
+int main() {
+      int num;
+      printf("Enter the number :\n");
+      scanf("%d",&num);
+      printf("%d\n",num);
+      printf("%p",num);
+    return 0;
+}
+
+
+output:
+Enter the number :
+10
+10
+0xa
+
+// find address
+
+#include<stdio.h>
+int main(){
+
+      int num;
+      printf("Enter the number :\n");
+      scanf("%d",&num);
+      int *pointer =&num;
+      printf("%d\n",num);
+      printf("%p\n",&num);
+      printf("%p\n",pointer);
+      printf("%d",*pointer);
+      
+      return 0;
+}
+
+Output:
+Enter the number :
+10
+10
+0x7ffc56bc1494
+0x7ffc56bc1494
+10
