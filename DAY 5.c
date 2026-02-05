@@ -33,7 +33,7 @@ int main(){
     return 0;
 }
 
-OUTPUT
+OUTPUT:
 Enter the number of elements :2
 Memory allocated and the allocated meemory is 2
 Enter 2 numbers by adding a gap for each numbers
@@ -65,6 +65,7 @@ int main() {
     if (empIDs == NULL) {
         printf("Memory allocation failed!\n");
         return 1;
+
     }
 
     // 2. Display initial values (should be zero)
@@ -110,7 +111,7 @@ int main() {
 
     return 0;
 }
-Output  
+Output:
  Enter number of employees: 5
 
 Initial employee IDs:
@@ -164,7 +165,7 @@ for (i = 0; i < n; i++) {
 }
 
 
-OUTPUT
+OUTPUT:
 
 Enter the number of subjects:
 3
@@ -239,7 +240,7 @@ int main() {
     return 0;
 }
 
-OUTPUT
+OUTPUT:
 
 Enter number of elements: 1
 Enter 1 elements:
@@ -298,7 +299,7 @@ int main(){
 }
 
 
-OUTPUT
+OUTPUT:
 
 Enter the number of employee IDs:
 1
@@ -335,7 +336,7 @@ int main() {
     return 0;
 }
 
-OUTPUT
+OUTPUT:
 
 10 
 0x7fffd79fd9f4 
